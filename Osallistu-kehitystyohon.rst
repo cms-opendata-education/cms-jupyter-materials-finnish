@@ -8,7 +8,7 @@ Osallistuminen
 ------------------
 Noudatamme tyypillistä `GitHubin käytäntöä <https://guides.github.com/introduction/flow/index.html>`_.
 
-1. Luo repositoriosta `haarautuma <https://guides.github.com/activities/forking/>`_ (fork) omalle tunnuksellesi.
+1. Luo hakemistosta `haarautuma <https://guides.github.com/activities/forking/>`_ (fork) omalle tunnuksellesi.
 2. Lisää uusi haara (branch) muutoksillesi ja nimeä se kuvaavasti, esim. ``normjakauman-sovitus-histogrammiin``.
 3. Testaa haaran toimivuus muutoksien jälkeen omalla koneellasi. Jos kaikki toimii niin kuin pitää,
    voit lisätä muutokset (commit) loogisesti kommentoituina.
