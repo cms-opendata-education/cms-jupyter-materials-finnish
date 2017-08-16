@@ -8,4 +8,5 @@ Vaihtoehtoiset tiedostot merkitty a/b
 3. Tuo-csv-data.ipynb
 
 Lisäominaisuuksia löydät seuraavista tiedostoista:
--  Lisaa-sarake-taulukkoon.ipynb
+- Lisaa-sarake-taulukkoon.ipynb
+- Datan-paloittelu-ja-tallennus.ipynb
