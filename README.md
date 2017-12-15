@@ -9,6 +9,7 @@ Materiaali sisältää Pythonin ja Jupyter Notebookin alkeita sekä valmiita har
   - Sisältää useita erilaisia harjoituksia, joissa hyödynnetään Jupyteria.
 - Data
   - Sisältää kaikkien johdanto- ja harjoitusnotebookien käyttämät .csv-tiedostot sekä muutaman ylimääräisen tiedoston kokeiluja varten.
+  - Nämä .csv-tiedostot (hieman erinimisinä) ovat myös [tallennettuna](http://opendata.web.cern.ch/record/545) CERNin Open Data -portaalissa ja muita vastaavia tiedostoja voi etsiä sieltä [tällä haulla](http://opendata.web.cern.ch/search?page=1&size=20&q=&subtype=Derived&type=Dataset&experiment=CMS&file_type=csv).
   
 Tämä materiaali on tuotettu ja käytettävissä CC-BY -lisenssin alla https://creativecommons.org/licenses/by/4.0/
 
