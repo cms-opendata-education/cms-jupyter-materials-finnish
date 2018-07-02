@@ -1,6 +1,5 @@
 ## Suositeltu järjestys tiedostojen tarkasteluun
-Vaihtoehtoiset tiedostot merkitty a/b
-
+### Huom! Laajempi ohje Pythonin käyttöön löytyy tiedostosta Ohjeita Pythonin käyttöön
 1. a. Jupyter-aloitus.ipynb <br>
    b. Jupyter-aloitus-vain-harjoitus.ipynb
 2. a. Python-perusteet.ipynb <br>
@@ -10,3 +9,4 @@ Vaihtoehtoiset tiedostot merkitty a/b
 Lisäominaisuuksia löydät seuraavista tiedostoista:
 - Lisaa-sarake-taulukkoon.ipynb
 - Datan-paloittelu-ja-tallennus.ipynb
+- Ohjeita Pythonin käyttöön.ipynb
