@@ -1,6 +1,3 @@
-# TODO: poista tiedostot paitsi 'Ohjeita Pythonin käyttöön.ipynb'
-        
-
 ## Suositeltu järjestys tiedostojen tarkasteluun
 Vaihtoehtoiset tiedostot merkitty a/b
 
