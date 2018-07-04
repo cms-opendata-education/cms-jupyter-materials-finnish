@@ -6,7 +6,7 @@ Materiaali sisältää Pythonin ja Jupyter Notebookin alkeita sekä valmiita har
 - Johdatus Jupyteriin <br>
   - Sisältää Jupyterin asennusohjeet, perusteet Python-ohjelmointikieleen sekä hyödyllisiä komentoja Jupyter Notebookien luomiseen ja muotoiluun.
 - Harjoituksia
-  - Sisältää useita erilaisia harjoituksia, joissa hyödynnetään Jupyteria.
+  - Löytyy kansioista Lukio ja Yläaste, joissa ne on jaettu pienempiin osiin vaikeustason mukaan
 - Data
   - Sisältää kaikkien johdanto- ja harjoitusnotebookien käyttämät .csv-tiedostot sekä muutaman ylimääräisen tiedoston kokeiluja varten.
   - Nämä .csv-tiedostot (hieman erinimisinä) ovat myös [tallennettuna](http://opendata.web.cern.ch/record/545) CERNin Open Data -portaalissa ja muita vastaavia tiedostoja voi etsiä sieltä [tällä haulla](http://opendata.web.cern.ch/search?page=1&size=20&q=&subtype=Derived&type=Dataset&experiment=CMS&file_type=csv).
