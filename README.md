@@ -16,9 +16,9 @@ Tämä materiaali on tuotettu ja käytettävissä CC-BY -lisenssin alla https://
 ## Materiaalien käyttö
 Ehdottomasti helpoin tapa käyttää materiaaleja on täysin selainkäyttöisesti [MyBinderin](https://mybinder.org/) avulla, joka rakentaa virtuaalisen työpöydän käytettäväksi. Tämän avulla vältät erinäisten ohjelmistojen asentamisen ja voit saman tien aloittaa tekemisen. Asioita voi helpottaa edelleen esimerkiksi tällaisten painikkeiden avulla: 
 
-|Notebook|Open|
+|Notebook|Avaa|
 |:--|:--|
-|Welcome to Jupyter!|[![Binder](https://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Johdatus-jupyteriin/Jupyter-aloitus.ipynb)|
+|Jupyter aloitus|[![Binder](https://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Johdatus-jupyteriin/Jupyter-aloitus.ipynb)|
 
 MyBinder toimii moiteettomasti suurimman osan ajasta, mutta on tällä hetkellä edelleen kehitettävänä ja voi toisinaan olla poissa käytöstä. Vaihtoehtoisesti voit käyttää esimerkiksi Googlen tarjoamaa palvelua [Colabia](https://colab.research.google.com), joka tosin vaatii googletilillä sisäänkirjautumisen. 
 
