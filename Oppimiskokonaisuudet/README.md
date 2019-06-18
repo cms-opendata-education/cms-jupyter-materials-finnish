@@ -1,6 +1,6 @@
 # Oppimiskokonaisuudet
 
-Tervetuloa avoimen datan oppimiskokonaisuuksien pariin. Tästä kansiosta löydät erilaisia ja eripituisia oppimiskokonaisuuksia aina yhden oppitunnin mittaisista kokonaisuuksista useisiin oppitunteihin tai jopa kokonaisien kurssien pitämiseen. Osa kokonaisuuksista käsittää hiukkasfysiikkaa, osa data-analyysiä ja osa molempia. Alla on kerrottu kunkin oppimiskokonaisuuden sisältö, tavoitteet sekä aika-arvio.
+Tervetuloa avoimen datan oppimiskokonaisuuksien pariin. Tästä kansiosta löydät erilaisia ja eripituisia oppimiskokonaisuuksia aina yhden oppitunnin mittaisista kokonaisuuksista useisiin oppitunteihin tai jopa kokonaisten kurssien pitämiseen. Osa kokonaisuuksista käsittää hiukkasfysiikkaa, osa data-analyysiä ja osa molempia. Alla on kerrottu kunkin oppimiskokonaisuuden sisältö, tavoitteet sekä aika-arvio.
 
 ## Avoimen datan käyttö hiukkasfysiikassa
 
