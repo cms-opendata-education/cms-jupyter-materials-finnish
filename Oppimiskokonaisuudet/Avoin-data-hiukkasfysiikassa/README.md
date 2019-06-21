@@ -9,13 +9,17 @@ Pintaraapaisu hiukkasfysiikkaan ja sen kokeelliseen tutkimukseen CERN:ssä.
 #### *2. CMS simulaatio*
  <img src="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/EventDisplay_aloitus.PNG?raw=true"  align="right" width="250px" title="Event display mahdollistaa autenttisen datan tarkastelun visuaalisessa muodossa.">
  
-Helppokäyttöinen event display tarjoaa sukelluksen CMS ilmaisimen sisuksiin. Se mahdollistaa visuaalisen ja interaktiivisen näkymän ilmaisimen monimutkaisiin osiin. Voit myös luoda näkymän törmäystapahtumasta avoimen datan avulla ja tutkia mitä kyseisellä ajolla tapahtui.
+Helppokäyttöinen event display tarjoaa sukelluksen CMS ilmaisimen sisuksiin. Se mahdollistaa visuaalisen ja interaktiivisen näkymän ilmaisimen monimutkaisiin osiin. Voit myös luoda näkymän todellisesta törmäystapahtumasta ja tutkia mitä kyseisellä ajolla tapahtui.
 - CMS ilmaisimen rakenteeseen tutustumista
 - Protonitörmäyksestä syntyneen datan viusaalinen esitys
 
 #### *3. Data-analyysi*
-0. Jupyter Notebookin käyttö
-0. Pythoniin tutustumista
+0_  Jupyter Notebookin käyttö
+ - Ohjeita Jupyter Notebook -ympäristön käyttöön ja oman tiedoston luomiseen.
+   
+0_  Pythoniin tutustumista
+ - Harjoituksissa tarvittavat perustiedot Python ohjelmointikielen käyttöön.
+   
 1. Laske invariantti massa
 1. Histogrammin piirto
 1. Datan valitseminen histogrammiin
