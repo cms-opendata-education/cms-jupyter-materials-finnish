@@ -4,9 +4,10 @@ Tämän oppimiskokonaisuuden aikana pääset tutustumaan hiukkasfysiikkaan ja se
 
 ## Hakemiston sisältö
 (_cms-jupyter-materials-finnish/Oppimiskokonaisuudet/Avoin-data-hiukkasfysiikassa_)
-#### *1. Hiukkasfysiikan tutkimus*
+#### *1. Hiukkasfysiikan tutkimus* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Oppimiskokonaisuudet%2FAvoin-data-hiukkasfysiikassa%2F1_Hiukkasfysiikan%20tutkimus.ipynb)
+
 Pintaraapaisu hiukkasfysiikkaan ja sen kokeelliseen tutkimukseen CERN:ssä.
-#### *2. CMS simulaatio*
+#### *2. CMS simulaatio*  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Oppimiskokonaisuudet%2FAvoin-data-hiukkasfysiikassa%2F2_cms-simulaatio.ipynb)
  <img src="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/EventDisplay_aloitus.PNG?raw=true"  align="right" width="250px" title="Event display mahdollistaa autenttisen datan tarkastelun visuaalisessa muodossa.">
  
 Helppokäyttöinen event display tarjoaa sukelluksen CMS ilmaisimen sisuksiin. Se mahdollistaa visuaalisen ja interaktiivisen näkymän ilmaisimen monimutkaisiin osiin. Voit myös luoda näkymän todellisesta törmäystapahtumasta ja tutkia mitä kyseisellä ajolla tapahtui.
@@ -14,10 +15,10 @@ Helppokäyttöinen event display tarjoaa sukelluksen CMS ilmaisimen sisuksiin. S
 - Protonitörmäyksestä syntyneen datan viusaalinen esitys
 
 #### *3. Data-analyysi*
-**0_  Jupyter Notebookin käyttö**
+**0_  Jupyter Notebookin käyttö**  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Oppimiskokonaisuudet%2FAvoin-data-hiukkasfysiikassa%2F3_Data-analyysi%2F0_Jupyter_Notebook-tutorial.ipynb)
  - Ohjeita Jupyter Notebook -ympäristön käyttöön ja oman tiedoston luomiseen.
    
-**0_  Pythoniin tutustumista**
+**0_  Pythoniin tutustumista**  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Oppimiskokonaisuudet%2FAvoin-data-hiukkasfysiikassa%2F3_Data-analyysi%2F0_Python-tutorial.ipynb)
  - Harjoituksissa tarvittavat perustiedot Python ohjelmointikielen käyttöön.
    
 **1_ Laske invariantti massa**
