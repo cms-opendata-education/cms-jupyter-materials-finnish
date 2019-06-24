@@ -3,12 +3,12 @@
 Tämän oppimiskokonaisuuden aikana pääset tutustumaan hiukkasfysiikkaan ja sen tutkimukseen, perehtymään tutkijoiden käyttämään dataan sekä analysoimaan sitä. Lisäksi oppimiskokonaisuus sisältää ohjelmointia Python-ohjelmointikielellä, käyttäen Jupyter Notebook -alustaa. Et tarvitse aiempaa kokemusta Pythonin tai Jupyter Notebookin käytöstä.
 
 ## Ohjeet materiaalin käyttöön
+- Tehtävissä kannattaa edetä numerojärjestyksessä, sillä myöhemmissä tehtävissä oletetaan aijemin käydyt asiat opituiksi.
+- Kokeile rohkeasti muuttaa ja parannella koodia!
+- Tee myös aivan omia kokeiluja!
+- Mikäli käytät MyBinderia [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master) riittää että avaat ohjelman kerran, sillä se lataa koko kansion kerralla. Avautumisessa saattaa kestää hetki, ja mikäli sivu on käyttämättä yli 15 minuuttia, se sulkeutuu.
+- Jos käytät Google Colabia [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true) täytyy jokainen tiedosto avata erikseen. 
 
-1. Aloita tutustumalla hiukkasfysiikan materiaaliin. Löydät materiaalin tiedostosta Hiukkasfysiikan tutkimus.ipynb
-
-2. Tutustu seuraavaksi CMS-simulaatioon. Ohjeet löydät kansiosta CMS-simulaatio.
-
-3. Data-analyysi
 
 ## Hakemiston sisältö
 (_cms-jupyter-materials-finnish/Oppimiskokonaisuudet/Avoin-data-hiukkasfysiikassa_)
