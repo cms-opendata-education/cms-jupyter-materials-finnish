@@ -14,20 +14,35 @@ Helppokäyttöinen event display tarjoaa sukelluksen CMS ilmaisimen sisuksiin. S
 - Protonitörmäyksestä syntyneen datan viusaalinen esitys
 
 #### *3. Data-analyysi*
-0_  Jupyter Notebookin käyttö
+**0_  Jupyter Notebookin käyttö**
  - Ohjeita Jupyter Notebook -ympäristön käyttöön ja oman tiedoston luomiseen.
    
-0_  Pythoniin tutustumista
+**0_  Pythoniin tutustumista**
  - Harjoituksissa tarvittavat perustiedot Python ohjelmointikielen käyttöön.
    
-1. Laske invariantti massa
-1. Histogrammin piirto
-1. Datan valitseminen histogrammiin
-1. Tunnista hiukkanen
-1. Histogrammien vertailu samassa kuvassa
-1. Datan suodattimien vertailu
-1. Psseudorapiditeetti
-1. Higgsin bosoni
+**1_ Laske invariantti massa**
+- Invariantin massan käsitteeseen tutustumista.
+
+**2_ Histogrammin piirto**
+- Histogrammi on tärkeä data-analyysin työkalu, harjoittele se huolella.
+
+**3_ Datan valitseminen histogrammiin**
+- Miten datan määrä vaikuttaa tutkimukseen?
+
+**4_ Tunnista hiukkanen**
+- CMS:n datan avulla voit itse havaita ja tunnistaa hiukkasia.
+
+**5_ Histogrammien vertailu samassa kuvassa**
+- Miten vertailla dataa?
+
+**6_ Datan suodattimien vertailu**
+- Miten käyttämämme data on päätynyt muotoon jossa se on? Miten liipaisujärjestelmän valinnat vaikuttavat tuloksiin?
+
+**7_ Psseudorapiditeetti**
+- Mikä se on ja miten se on huomioitava hiukkasilmaisimen dataa tulkitessa?
+
+**8_ Higgsin bosoni**
+- Löydä Higgs ja voita oma Nobel-palkinto!
 
 Hakemistosta löydät perusteet hiukkasfysiikasta, ohjeet CMS-kokeen törmäyksien visualisointiin, tarvittavat tiedot Pythonin ja Jupyter Notebookin käyttöön sekä harjoituksia, joissa pääset analysoimaan CMS-kokeen avointa dataa.
 
