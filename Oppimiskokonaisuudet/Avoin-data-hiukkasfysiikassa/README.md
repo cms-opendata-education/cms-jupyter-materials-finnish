@@ -54,6 +54,4 @@ Helppokäyttöinen [event display](http://opendata.cern.ch/visualise/events/CMS)
 **8_ Higgsin bosoni**  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Oppimiskokonaisuudet%2FAvoin-data-hiukkasfysiikassa%2F3_Data-analyysi%2F8_Higgsin_bosoni.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Oppimiskokonaisuudet/Avoin-data-hiukkasfysiikassa/3_Data-analyysi/8_Higgsin_bosoni.ipynb)
 - Löydä Higgs ja voita oma Nobel-palkinto!
 
-Hakemistosta löydät perusteet hiukkasfysiikasta, ohjeet CMS-kokeen törmäyksien visualisointiin, tarvittavat tiedot Pythonin ja Jupyter Notebookin käyttöön sekä harjoituksia, joissa pääset analysoimaan CMS-kokeen avointa dataa.
-
-
+Onnea matkaan ja pidä rohkeasti hauskaa datan ja koodin kanssa!
