@@ -9,34 +9,31 @@ Oppimiskokonaisuuden aikana tutustutaan hiukkasfysiikan perusteisiin, tutkitaan 
 Aiempaa kokemusta Notebookeista tai ohjelmoinnista ei tarvita.
 
 - Tavoitteet
-    * Ymmärtää hiukkasfysiikan perusteet
-    * Tietää, miten hiukkasfysiikan tutkimusta tehdään
-    * Oppii Python-ohjelmoinnin perusteet
-    * Oppii visualisoimaan dataa ohjelmoimalla
-    * Osaa tulkita histogrammeja
+    * Tutustua hiukkasfysiikkaan ja sen tutkimukseen
+    * Tutkia hiukkasten törmäyksiä CMS event displayn avulla.
+    * Tutustua ohjelmointiin Pytohnilla
+    * Piirtää ja analysoida histogrammeja ja kuvaajia Pythonilla
 
 - Aika-arvio
     * 5x45min
         - 1: Hiukkasfysiikan tutkimus
         - 2: CMS-simulaatio
         - 3: Jupyter ja Python
-        - 4-5: Tehtävien tekeminen ja loppukeskustelu
+        - 4-5: Tehtävien tekeminen ja koonti
 
 ## Lyhyet oppimiskokonaisuudet
 
-### Kokonaisuus 1
+### Mittaa ja mallinna
 
-- Perustiedot
-    *
-    *
+Tarkoituksena on toteuttaa projekti, jossa opiskelijat mittaavat Phyphox-sovelluksen (tai muun vastaavan) avulla dataa jostain mielenkiintoisesta tapahtumasta. Tämän jälkeen data visualisoidaan (piirretään kuvaaja) ja analysoidaan Python-ohjelmointia hyödyntäen (ei tarvita aiempaa kokemusta). Työ soveltuu hyvin tehtäväksi pienissä, noin kolmen hengen ryhmissä.
     
 - Tavoitteet
-    *
-    *
+    * Toteuttaa oma data-analyysiprojekti
+    * Tutustua ohjelmointiin Pythonilla
+    * Piirtää ja analysoida kuvaajia Pythonilla
 
 - Aika-arvio
-    *
-    *
+    * 2x45min oppituntia
 
 ### Kokonaisuus 2
 
