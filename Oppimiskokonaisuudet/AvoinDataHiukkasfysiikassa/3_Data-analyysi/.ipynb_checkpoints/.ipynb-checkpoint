@@ -1,0 +1,333 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Jupyter Notebook -tutoriaali"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Tervetuloa käyttämään Jupyter Notebookia!\n",
+    "\n",
+    "Tähän tutoriaaliin on koottu suomeksi oleellisimmat perustiedot Jupyter Notebookin käytöstä ja ominaisuuksista. Jos olet avannut tutoriaalin Jupyterissa, voit vapaasti kokeilla erilaisia toimintoja, muokata sisältöä ja luoda omia kommenttejasi. Mikäli sinulla ei vielä ole Jupyteria, katso osio _Jupyter Notebookin asennus_.\n",
+    "\n",
+    "Yksityiskohtaisempia ohjeita varten Jupyter-projektin virallinen englanninkielinen dokumentaatio löytyy osoitteesta http://jupyter.readthedocs.io/en/latest/index.html. Jupyter Notebook -sovellukseen keskittyvä dokumentaatio on saatavilla osoitteessa http://jupyter-notebook.readthedocs.io/en/latest/.\n",
+    "\n",
+    "Tämä dokumentti sisältää:<br>\n",
+    "(valitettavasti linkit toimivat vain Jupyterissa, eivät GitHubissa)\n",
+    "1. [Mikä on Jupyter Notebook?](#mikaon)\n",
+    "2. [Jupyter Notebookin asennus](#asennus)\n",
+    "3. [Käynnistäminen ja uuden notebookin luominen](#luonotebook)\n",
+    "4. [Käyttöliittymä](#interface)\n",
+    "5. [Solut](#solut) <br>\n",
+    "    5.1 [Solun luominen ja muokkaaminen](#luosolu) <br>\n",
+    "    5.2 [Solun ajaminen](#ajasolu) <br>\n",
+    "    5.3 [Tekstisolu (Markdown)](#markdown) <br>\n",
+    "    5.4 [Otsikkosolu (Heading)](#otsikko) <br>\n",
+    "    5.5 [Koodisolu (code)](#koodi) <br>\n",
+    "6. [Notebookin tallentaminen ja dashboardin käyttö](#dashboard)\n",
+    "7. [Notebookien käyttäminen](#kaytto)<br>\n",
+    "    7.1 [Mahdollisia ongelmatilanteita ja ratkaisuja niihin](#ongelmia)<br>\n",
+    "8. [Muita huomioita](#huomioita)\n",
+    "\n",
+    "[Lyhyt harjoitus](#harjoitus)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"mikaon\"></a>\n",
+    "## 1. Mikä Jupyter Notebook?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Jupyter Notebook on verkkosovellus, jonka avulla voidaan luoda ohjelmointikoodia, tavallista tekstiä, kuvia, visuaalisointeja ja yhtälöitä yhdistäviä dokumentteja. Näitä dokumentteja kutsutaan __notebookeiksi__.\n",
+    "\n",
+    "Jupyter on toteutettu avoimella lähdekoodilla. Sovellus tukee yli 40 eri ohjelmointikieltä (mm. Python, C++, C#, JavaScript, Ruby). Tässä oppimiskokonaisuudessa ohjelmointikielenä käytetään Pythonia."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"asennus\"></a>\n",
+    "## 2. Jupyter Notebookin asennus"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Jupyter Notebookia on mahdollista käyttää muutamalla eri tavalla. Suositeltavin vaihtoehto on käyttää Jupyteria ilman asennusta MyBinder-sovelluksella (https://gke.mybinder.org/). Binder luo sille annetusta GitHub-hakemistosta selaimessa toimivan Jupyter-ympäristön, jossa hakemistossa olevia notebookeja voi käyttää ja muokata. Binderin käyttö on helppoa:\n",
+    "- Mene sivulle https://gke.mybinder.org/.\n",
+    "- Kopioi kenttään _GitHub repository name or URL_ sen GitHub-hakemiston osoite, jonka haluat aukaista. Tämän materiaalin voi avata kopioimalla osoitteen https://github.com/cms-opendata-education/cms-jupyter-materials-finnish\n",
+    "- Kirjoita kenttään _Git branch, tag, or commit_ \"master\" (mahdollisesti jo valmiina) ja paina nappia _launch_.\n",
+    "\n",
+    "Huomaa, että Binderiin tekemäsi muutokset eivät automaattisesti tallennu minnekään ja poistuvat, jos ympäristö on 20 minuuttia käyttämättä. Voit kuitenkin tallentaa Binderilla muokkaamasi ja laatimasi notebookit omalle koneellesi talteen. Tämä onnistuu avoimen notebookin valikosta klikkaamalla _File_ -> _Download as_ -> _notebook (.ipynb)_.\n",
+    "\n",
+    "Toinen vaihtoehto on hoitaa Jupyterin asennus omalle tietokoneellesi Anacondan avulla. Anaconda asentaa yhdellä kertaa Pythonin, Jupyterin sekä Python-ohjelmoinnissa hyödyllisiä paketteja. Asennus Anacondan avulla on helppoa:\n",
+    "- Lataa Anaconda sivulta https://www.anaconda.com/. Suositeltavinta on ladata Python 3:n uusin versio, joka on tämän tutoriaalin kirjoitushetkellä 3.7.\n",
+    "- Asenna Anaconda lataamasi paketin asennusohjelman avulla.\n",
+    "- Asennuksen jälkeen voit käynnistää Jupyterin joko avaamalla ohjelman _Anaconda Navigator_ ja valitsemalla valikosta Jupyter Notebookin.\n",
+    "\n",
+    "Muut Jupyterin asennusvaihtoehdot ja täydet, englanninkieliset asennusohjeet löytyvät sivulta http://jupyter.readthedocs.io/en/latest/install.html."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"luonotebook\"></a>\n",
+    "## 3. Käynnistäminen ja uuden notebookin luominen"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Käynnistymisen jälkeen Jupyterin päävalikko, __dashboard__, avautuu selaimessa.\n",
+    "<br>\n",
+    "<img src=\"../../../Kuvat/dashboard.png\" align=\"center\">\n",
+    "<br>\n",
+    "Dashboardin kautta voidaan luoda uusia notebookeja, avata tai poistaa vanhoja sekä hallinnoida Jupyterin toimintaa. Dashboardiin tutustutaan tarkemmin osiossa [8. Notebookin tallentaminen ja dashboardin käyttö](#dashboard).\n",
+    "\n",
+    "Uuden notebookin luominen onnistuu dashboardin oikeassa yläkulmassa olevalla _New_-painikkeella. Painikkeesta avautuu vetovalikko, josta voidaan valita _Notebooks_-tekstin alta notebookissa käytettävä ydin (kernel). Ydin määrää, millä ohjelmointikielellä notebook toimii (esim. Python 2, Python 3, C++, ...). Saatavilla olevien ytimien määrä riippuu siitä, mitä ytimiä käyttäjä on asentanut yhteensopiviksi.\n",
+    "\n",
+    "Tässä tutoriaalissa käytämme kielenä Python 3:a. Ytimen valitsemisen jälkeen luotu notebook avautuu selaimen uudelle välilehdelle."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"interface\"></a>\n",
+    "## 4. Käyttöliittymä ja sen toiminta"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Jupyterin käyttöliittymän tärkeimmät osat ovat yläreunan valikkopalkki ja työkalupalkki (kuva alla), sekä itse notebook.\n",
+    "<br>\n",
+    "<img src=\"../../../Kuvat/valikkopalkki.jpg\">\n",
+    "<br>\n",
+    "Jupyteria käytetään kahdessa eri tilassa: __editointitilassa__ ja __komentotilassa__. Editointitilassa käyttäjä voi muokata notebookin yhden osion, __solun__, sisältöä, ja komentotilassa taas hallita notebookia kokonaisuutena. Editointitilaan voidaan siirtyä näppäimellä _Enter_ tai tuplaklikkaamalla sitä notebookin osaa, jota halutaan editoida. Takaisin komentotilaan pääsee näppäimellä _Esc_, klikkaamalla solun ulkopuolista osaa tai uudella tuplaklikkauksella. Valikkopalkin oikealta on mahdollista tarkistaa, kummassa tilassa Jupyter on. Mikäli ylhäällä oikealla näkyy kuva\n",
+    "\n",
+    "<img src=\"../../../Kuvat/editointitila.png\" align=\"left\">\n",
+    "<br>\n",
+    "<br>\n",
+    "(tekstin tilalla voi lukea myös muuta), ollaan editointitilassa, muutoin komentotilassa.\n",
+    "\n",
+    "Editointitilan ja komentotilan näppäinkomennot eroavat toisistaan. Riippuen siitä, kummassa tilassa ollaan, samalla näppäimellä voi olla eri komento. Esimerkiksi komentotilassa näppäin _s_ tallentaa notebookin, mutta editointitilassa saadaan kirjoitettua kirjain \"s\"."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"solut\"></a>\n",
+    "## 5. Solut"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Kaikki notebookin sisältö kirjoitetaan __soluihin__ (cells). Alla on esimerkiksi solu, joka on määrätty koodisoluksi. Myös tämä teksti on kirjoitettu omaan soluunsa, tekstisoluun. Soluja voidaan ajaa (run), jolloin solut tekevät solutyypistä riippuen erilaisia toimintoja."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Tämä on koodisolu, johon ei vielä ole kirjoitettu ollenkaan koodia, vaan\n",
+    "# ainoastaan nämä kommenttirivit.\n",
+    "# Kommenttirivit alkavat aina #-merkillä."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Jupyterissa on käytössä neljä eri solutyyppiä: __Code__ (ohjemointikoodi), __Markdown__ (tavallinen teksti), __Heading__ (otsikko) sekä __Raw__ (koodi, joka jätetään notebookin sisällöstä pois). Näistä tärkeimpiä ovat Code- ja Markdown -solut.\n",
+    "\n",
+    "Voit tehostaa työskentelyäsi käyttämällä pikakomentoja. Löydät ja voit muokata kaikkia pikakomentoja painamalla näppäintä ***h*** komentotilassa."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"luosolu\"></a>\n",
+    "### 5.1 Solun luominen ja muokkaaminen"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Uuden solun luominen onnistuu _Insert_-valikosta tai työkalupalkin painikkeella $+$.\n",
+    "Solun luomisen jälkeen voidaan valita solun tyyppi. Valinta onnistuu työkalupalkin vetovalikosta \n",
+    "\n",
+    "<img src=\"../../../Kuvat/solutyyppi.png\" align=\"left\">\n",
+    "<br>\n",
+    "<br>\n",
+    "\n",
+    "Vastaavasti solun voi poistaa valikkopalkin _Edit_ $\\rightarrow$ _Delete Cells_ -valinnalla."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"ajasolu\"></a>\n",
+    "### 5.2 Solun ajaminen"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Jupyter Notebookin tärkein ominaisuus on solujen ajaminen (running). Ajamisen jälkeen solu tekee siihen kirjatut tehtävät: tekstisolun sisällöstä tulee muotoiltua tekstiä, otsikkosolusta otsikko ja koodisolu suorittaa siihen ohjelmointikielellä kirjatut komennot. Saatoit jo huomata aiemmin, että tekstisolun editointitilaan siirtymisen ja siitä poistumisen jälkeen solu ei automaattisesti palautunutkaan muotoilluksi tekstiksi. Tämä johtuu siitä, että solu täytyy ensin ajaa.\n",
+    "\n",
+    "Solun ajaminen onnistuu työkalupalkin _Run_-painikkeella. Jos luet tätä tutoriaalia Jupyterilla, voit kokeilla alla olevan koodisolun ajamista. Voit myös muokata koodia ja ajaa solua uudestaan."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Tämä on koodisolu, jolla voimme testata koodin ajamista.\n",
+    "# Ajamisen jälkeen notebookiin pitäisi tulostua teksti \"Hello World!\".\n",
+    "# Kokeile solua muokkaamalla, saatko tulostettua muuta tekstiä.\n",
+    "\n",
+    "print(\"Hello World!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"markdown\"></a>\n",
+    "### 5.3 Tekstisolu (Markdown)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Jupyterin tekstisolut käyttävät _Markdown_-merkintäkieltä. Markdown mahdollistaa tavallisen tekstin kirjoittamisen lisäksi tekstin muotoilua. Markdownin avulla tekstiä voidaan esimerkiksi __lihavoida__, _kursivoida_ ja ~~yliviivata~~. Lisäksi voidaan laatia esimerkiksi listoja tai lainauksia.\n",
+    "\n",
+    "Tässä tutoriaalissa ei käydä tarkemmin läpi Markdownin muotoilukomentoja, mutta hyvä lista erilaisista komennoista löytyy esimerkiksi verkkosivulta https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<a id=\"koodi\"></a>\n",
+    "### 5.4 Koodisolu (code)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Koodisoluihin voidaan kirjoittaa ohjelmointikoodia notebookiin valitun ytimen kielellä. Jos notebook käyttää esimerkiksi Python 3 -ydintä, voidaan koodisoluissa suorittaa Python 3 -komentoja.\n",
+    "\n",
+    "Koodisoluihin kirjattu koodi käyttäytyy samalla tapaa kuin missä tahansa muussakin ohjelmointiympäristössä. Koodin ajamisen tulokset näkyvät koodisolun alle ilmestyvässä _output_-osiossa.\n",
+    "\n",
+    "Esimerkiksi alla olevassa koodisolussa tallennetaan muuttujaan _summa_ yhteenlaskun 3 + 4 tulos, ja pyydetään näyttämään muuttujan _summa_ arvo."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "summa = 3 + 4\n",
+    "summa"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Koodin ulostuloa ei ole rajoitettu vain tekstiin tai numeroihin, vaan ulostulo voi olla esimerkiksi kuvaaja tai taulukko. Alla olevassa koodisolussa esimerkiksi piirretään erilaisia lukupareja _matplotlib_-moduulin avulla, jolloin ulostuloon piirtyy kuvaaja:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "image/png": "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\n",
+      "text/plain": [
+       "<Figure size 432x288 with 1 Axes>"
+      ]
+     },
+     "metadata": {
+      "needs_background": "light"
+     },
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "import matplotlib.pyplot as plt\n",
+    "\n",
+    "%matplotlib inline\n",
+    "numeroita = [1,2,3,6,7,8,12,16]\n",
+    "plt.plot(numeroita, 'ro')\n",
+    "plt.show()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
