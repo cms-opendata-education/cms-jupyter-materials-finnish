@@ -30,5 +30,5 @@ Vaihtoehtoisesti voit käyttää esimerkiksi Googlen tarjoamaa palvelua [Colabia
 Mikäli suosit Notebookien käyttämistä paikallisesti omalla tietokoneellasi eikä ohjelmistjen asentaminen ole ongelma, voit ladata [Anaconda-ohjelmiston](https://www.anaconda.com/). Tällöin voit ladata materiaalin tämän GitHub-hakemiston [etusivulta](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish) klikkaamalla ![Clone or download](https://github.com/cms-opendata-education/cms-opendata-education/blob/master/download.png) painiketta. Anaconda-ohjelmiston avulla voit avata Jupyter Notebookin ja käyttää tai muokata lataamaasi materiaalia.
 
 ## Osallistu kehitystyöhön
-Otamme mielellämme vastaan kehitysideoita ja -toiveita sekä uusia materiaaleja jaettavaksi! <br>
-Jos sinulla on ideoita, niin katso ohjeet [osallistumiseen](Osallistu-kehitystyohon.rst).
+Otamme mielellämme vastaan palautetta, kehitysideoita ja -toiveita sekä uusia materiaaleja jaettavaksi! <br>
+[Jätä palautetta](https://forms.gle/jEy26C3nBKLcuuGSA)
