@@ -1,39 +1,34 @@
 # CMS Jupyter Materials Finnish
-Tämä hakemisto sisältää opetuskäyttöön tarkoitettua materiaalia, joissa hyödynnetään CERNin CMS-mittauslaitteistolla tuotettua avointa dataa. Opetusmateriaalia löytyy myös muista kuin hiukkasfysiikan aiheista, kuten data-analyysistä. Materiaalia käytetään pääasiassa Jupyter Notebook -ympäristöissä Python-ohjelmointia hyödyntäen. Lisäksi käytämme Phyphox-mobiiliapplikaatiota. Materiaali sisältää valmiiksi mietittyjä opetuskokonaisuuksia sekä yksittäisiä harjoituksia. Opetuskokonaisuuksien sisällöt vaihtelevat hiukkasfysiikasta data-analyysiin ja pituudet yhdestä oppitunnista useampaan.
+Tämä hakemisto sisältää opetuskäyttöön tarkoitettua materiaalia, joissa hyödynnetään CERN:n CMS-mittauslaitteistolla tuotettua avointa dataa. Materiaalia käytetään pääasiassa Jupyter Notebook -ympäristöissä Python-ohjelmointia hyödyntäen. Lisäksi käytämme esimerkiksi Phyphox-mobiiliapplikaatiota. Materiaali sisältää valmiita opetuskokonaisuuksia oppitunneilla käytettäväksi sekä yksittäisiä demonstraatioita ja harjoituksia. Opetuskokonaisuuksien sisällöt vaihtelevat hiukkasfysiikasta data-analyysiin ja kokonaisuuksien pituudet yhdestä oppitunnista useampaan. Materiaalien käyttämiseksi et tarvitse aikaisempaa kokemusta ohjelmoinnista tai käytettävistä ohjelmistoista.
 
 ## Sisältö
 - Työkalut tutuiksi <br>
-    - Sisältää Jupyterin asennusohjeet, perusteet Python-ohjelmointikieleen sekä hyödyllisiä komentoja Jupyter Notebookien luomiseen ja muotoiluun. 
+    - Ohjeet Jupyter Notebookien käyttöön
+    - Johdatus Python-ohjelmointiin
 - Opetusmateriaali
-    - Sisältää opetuskokonaisuuksia, joita voi käyttää oppitunnilla sellaisenaan tai muokata oman mielensä mukaan.
+    - Valmiita kokonaisuuksia oppitunneilla käytettäväksi
+        - Pidempiä kokonaisuuksia osaksi kurssia
+        - Lyhyempiä, yhden tai muutaman oppitunnin mittaisia kokonaisuuksia
+        - Kokonaisuuksien aiheet vaihtelevat hiukkasfysiikasta data-analyysiin
+    - Materiaalia voi vapaasti muokata omaan opetukseen sopivaksi
 - Demot
-    - Sisältää esimerkkitehtäviä valmiiksi kirjoitetulla koodilla.
+    - Harjoituksia ja esimerkkejä, joissa koodi on kirjoitettu kokonaan valmiiksi
 - Data
-    - Sisältää kaikki materiaaleissa käytetyt .csv-datatiedostot sekä notebookeissa käytetyt apufunktiot.
-    - Nämä .csv-tiedostot (hieman erinimisinä) löydät [CERN:in Open Data Portaalista](http://opendata.cern.ch/). Lisää samankaltaisia csv-tiedostoja voit etsiä [tällä haulla](http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Derived&type=Dataset&file_type=csv).
+    - Materiaaleissa käytetyt datatiedostot.
+    - Nämä tiedostot (hieman erinimisinä) löytyvät myös [CERNin Open Data -portaalissa](http://opendata.web.cern.ch). Suora linkki CMS:n julkaisemiin opetuskäyttöön tarkoitettuihin csv-tiedostoihin [tässä](http://opendata.web.cern.ch/search?page=1&size=20&q=&subtype=Derived&type=Dataset&experiment=CMS&file_type=csv).
+    - Sisältää myös apufunktioita joitakin kokonaisuuksissa käytettäviä Notebookeja varten.
 - Kuvat
-    - Sisältää kaikki materiaaleissa käytetyt kuvatiedostot
-    
-    
-Tämä materiaali on tuotettu ja käytettävissä CC-BY -lisenssin alla https://creativecommons.org/licenses/by/4.0/
+    - Sisältää kaikki materiaaleissa käytetyt kuvatiedostot.
+  
+Tämä materiaali on tuotettu ja käytettävissä CC-BY -lisenssin alla https://creativecommons.org/licenses/by/4.0/.
 
 ## Materiaalien käyttö
-Helpoin tapa käyttää materiaaleja on täysin selainkäyttöisesti [MyBinderin](https://mybinder.org/) avulla, joka rakentaa virtuaalisen työpöydän käytettäväksi. Tämän avulla vältät erinäisten ohjelmistojen asentamisen ja voit saman tien aloittaa tekemisen. Asioita voi helpottaa edelleen esimerkiksi tällaisten painikkeiden avulla: 
+Helpoin tapa käyttää materiaaleja on täysin selainpohjaisesti [MyBinderin](https://mybinder.org/) avulla. Näin vältät ohjelmistojen asentamisen ja voit saman tien aloittaa tekemisen. Toisaalta MyBinder saattaa toisinaan avautua melko hitaasti ja sulkeutuu, mikäli se on käyttämättä yli 10 minuuttia. Materiaaleista löydät suoran linkin, joka avaa kyseisen tiedoston MyBinderissa.
 
-|Notebook|Avaa|
-|:--|:--|
-|Tervetuloa Jupyter Notebookien pariin!|[![Binder](https://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Johdatus-jupyteriin/Tervetuloa-Jupyter-Notebookien-pariin!.ipynb)|
+Vaihtoehtoisesti voit käyttää esimerkiksi Googlen tarjoamaa palvelua [Colabia](https://colab.research.google.com/), jolloin sinun tarvitsee kirjautua sisään Google-tilillä. Muuten Colab toimii melko samaan tapaan kuin MyBinder. Materiaaleista löydät myös suoran linkin tiedoston avaamiseen Colabilla.
 
-Toisaalta MyBinder saattaa toisinaan avautua melko hitaasti ja sulkeutuu, mikäli se on käyttämättä yli 15 minuuttia. Vaihtoehtoisesti voit käyttää esimerkiksi Googlen tarjoamaa palvelua Colabia, jolloin sinun tarvitsee kirjautua sisään Google-tilillä.
+Mikäli suosit Notebookien käyttämistä paikallisesti omalla tietokoneellasi eikä ohjelmistjen asentaminen ole ongelma, voit ladata [Anaconda-ohjelmiston](https://www.anaconda.com/). Tällöin voit ladata materiaalin tämän GitHub-hakemiston [etusivulta](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish) klikkaamalla ![Clone or download](https://github.com/cms-opendata-education/cms-opendata-education/blob/master/download.png) painiketta. Anaconda-ohjelmiston avulla voit avata Jupyter Notebookin ja käyttää tai muokata lataamaasi materiaalia.
 
-Mikäli suosit ohjelmien ja Notebookien käsittelyä paikallisesti omalla tietokoneellasi, se onnistuu myös. Voit ladata tämän hakemiston sisällön ZIP-pakettina ja purkaa sen omalle koneellesi. 
-Tämä onnistuu helpoiten klikkaamalla etusivulla olevaa painiketta.
-![Clone or download](https://github.com/cms-opendata-education/cms-opendata-education/blob/master/download.png)
-
-Tällöin voit ladata Anaconda-ohjelmiston ja sen avulla käyttää ja muokata Notebookeja.
-
-## Kehitystyöhön osallistuminen
+## Osallistu kehitystyöhön
 Otamme mielellämme vastaan kehitysideoita ja -toiveita sekä uusia materiaaleja jaettavaksi! <br>
 Jos sinulla on ideoita, niin katso ohjeet [osallistumiseen](Osallistu-kehitystyohon.rst).
-
-TAI OHJEET VAIN TÄHÄN.
