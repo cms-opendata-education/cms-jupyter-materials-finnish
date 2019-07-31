@@ -21,9 +21,21 @@ Aiempaa kokemusta Notebookeista tai ohjelmoinnista ei tarvita.
         - 3: Jupyter ja Python
         - 4-5: Tehtävien tekeminen ja koonti
 
-## Lyhyet oppimiskokonaisuudet
+## Hiukkaset hukassa
 
-### Mittaa ja mallinna
+- Perustiedot
+    *
+    *
+    
+- Tavoitteet
+    *
+    *
+
+- Aika-arvio
+    *
+    *
+
+## Mittaa ja mallinna
 
 Tarkoituksena on toteuttaa projekti, jossa opiskelijat mittaavat Phyphox-sovelluksen (tai muun vastaavan) avulla dataa jostain mielenkiintoisesta tapahtumasta. Tämän jälkeen data visualisoidaan (piirretään kuvaaja) ja analysoidaan Python-ohjelmointia hyödyntäen (ei tarvita aiempaa kokemusta). Työ soveltuu hyvin tehtäväksi pienissä, noin kolmen hengen ryhmissä.
     
@@ -34,33 +46,3 @@ Tarkoituksena on toteuttaa projekti, jossa opiskelijat mittaavat Phyphox-sovellu
 
 - Aika-arvio
     * 2x45min oppituntia
-
-### Kokonaisuus 2
-
-- Perustiedot
-    *
-    *
-    
-- Tavoitteet
-    *
-    *
-
-- Aika-arvio
-    *
-    *
-
-## Kirja
-
-- Perustiedot
-    *
-    *
-    
-- Tavoitteet
-    *
-    *
-
-- Aika-arvio
-    *
-    *
-
-## Muut
