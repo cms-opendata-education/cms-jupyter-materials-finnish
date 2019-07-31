@@ -22,6 +22,10 @@ Tämä hakemisto sisältää opetuskäyttöön tarkoitettua materiaalia, joissa 
   
 Tämä materiaali on tuotettu ja käytettävissä CC-BY -lisenssin alla https://creativecommons.org/licenses/by/4.0/.
 
+
+<img src="https://raw.githubusercontent.com/cms-opendata-education/cms-jupyter-materials-finnish/master/Kuvat/finnishrepRakenne.png"  align="center" width="700px" title="Repostorion rakenne 31.7.2019"> 
+
+
 ## Materiaalien käyttö
 Helpoin tapa käyttää materiaaleja on täysin selainpohjaisesti [MyBinderin](https://mybinder.org/) avulla. Näin vältät ohjelmistojen asentamisen ja voit saman tien aloittaa tekemisen. Toisaalta MyBinder saattaa toisinaan avautua melko hitaasti ja sulkeutuu, mikäli se on käyttämättä yli 10 minuuttia. Materiaaleista löydät suoran linkin, joka avaa kyseisen tiedoston MyBinderissa.
 
