@@ -1,6 +1,6 @@
 # Mittaa ja mallinna
 
-Tämä oppimiskokonaisuus sisältää ohjeet projektin toteuttamiseksi Phyphox-sovelluksen ja Python-ohjelmoinnin avulla. Jos Phyphox tai Python-ohjelmointi eivät ole tuttuja, niin ei hätää - nyt on hyvä hetki oppia! Tämä oppimiskokonaisuus sisältää useita esimerkkiprojekteja oppitunneilla toteutettavaksi, mutta myös oman projektin suunnittelemiseen löytyy tukimateriaalia.
+Tämän opetuskokonaisuuden tarkoituksena on tehdä data-analyysiprojekti. Projektissa kerätään dataa Phyphox-mobiilisovelluksen avulla ja käytetään Python-ohjelmointia datan analysointiin. Tämä hakemisto sisältää opettajan ja oppilaan ohjeet projektin toteuttamiseksi. Jos Phyphox tai Python-ohjelmointi eivät ole tuttuja, niin ei hätää - nyt on hyvä hetki oppia! Tämä oppimiskokonaisuus sisältää useita esimerkkiprojekteja oppitunneilla toteutettavaksi, mutta myös oman projektin suunnittelemiseen löytyy tukimateriaalia.
 
 ## Ohjeet materiaalin käyttöön
 
@@ -11,7 +11,7 @@ Tämä oppimiskokonaisuus sisältää ohjeet projektin toteuttamiseksi Phyphox-s
     * Oppilaan työohjeen
     * Data-analyysipohjan Pythonilla
     * Pohdintatehtäviä ja pohjan yhteenvedolle
-- Painamalla [![Binder](https://mybinder.org/badge.svg)](https://gke.mybinder.org/) kuvakkeesa, tiedosto avautuu MyBinderissa
+- Painamalla [![Binder](https://mybinder.org/badge.svg)](https://gke.mybinder.org/) kuvakkeesta, tiedosto avautuu MyBinderissa
 - Painamalla [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true) kuvakkeesta, tiedosto avautuu Google Colabissa. Huom! Colabin käyttöön tarvitset Google-tilin.
 
 ## Opettajan ohje [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FMittaaJaMallinna%2FMittaaJaMallinnaOpettaja.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/MittaaJaMallinna/MittaaJaMallinnaOpettaja.ipynb)
