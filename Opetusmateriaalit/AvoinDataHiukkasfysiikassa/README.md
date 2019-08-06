@@ -56,4 +56,7 @@ Helppokäyttöinen [event display](http://opendata.cern.ch/visualise/events/CMS)
 **08_HiggsinBosoni**  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FAvoinDataHiukkasfysiikassa%2F3_Data-analyysi%2F08_HiggsinBosoni.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/AvoinDataHiukkasfysiikassa/3_Data-analyysi/08_HiggsinBosoni.ipynb)
 - Löydä Higgs ja voita oma Nobel-palkinto!
 
+**Ratkaisut** [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FAvoinDataHiukkasfysiikassa%2F3_Data-analyysi%2FRatkaisut.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Opetusmateriaalit/AvoinDataHiukkasfysiikassa/3_Data-analyysi/Ratkaisut.ipynb)
+- Tarkastele tehtävien malliratkaisuja
+
 Onnea matkaan ja pidä rohkeasti hauskaa datan ja koodin kanssa!
