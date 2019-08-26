@@ -1,6 +1,6 @@
-# Oppimiskokonaisuudet
+# Opetusmateriaalit
 
-Tervetuloa avoimen datan oppimiskokonaisuuksien pariin. Tästä kansiosta löydät erilaisia ja eripituisia oppimiskokonaisuuksia aina yhden oppitunnin mittaisista kokonaisuuksista useisiin oppitunteihin tai jopa kokonaisten kurssien pitämiseen. Osa kokonaisuuksista käsittää hiukkasfysiikkaa, osa data-analyysiä ja osa molempia. Alla on kerrottu kunkin oppimiskokonaisuuden sisältö, tavoitteet sekä aika-arvio.
+Tervetuloa avoimen datan opetusmateriaalin pariin. Tästä kansiosta löydät erilaisia ja eripituisia oppimiskokonaisuuksia aina yhden oppitunnin mittaisista kokonaisuuksista useisiin oppitunteihin tai jopa kokonaisten kurssien pitämiseen. Osa kokonaisuuksista käsittää hiukkasfysiikkaa, osa data-analyysiä ja osa molempia. Alla on kerrottu kunkin oppimiskokonaisuuden sisältö, tavoitteet sekä aika-arvio.
 
 ## Avoimen datan käyttö hiukkasfysiikassa
 
@@ -23,17 +23,24 @@ Aiempaa kokemusta Notebookeista tai ohjelmoinnista ei tarvita.
 
 ## Hiukkaset hukassa
 
-- Perustiedot
-    *
-    *
+Työpaja hiukkasfysiikan datan parissa. Harjoitellaan hieman koodaamista ja data-analyysia sekä kurkataan CERNin tutkimusaseman syövereihin. Tyopaja toteutetaan ryhmätyönä lyhyen esitelmän jälkeen. Ryhmien salapoliisitaidot pääsevät koetukselle, kun CERNin kesäopiskelija kutsuu heidät apuun todellisen datan tunnistamisessa. Onneksi isotkaan datamäärät eivät olekaan niin hankalia, kun käytössä ovat oikeat tyokalut! 
+
+Sisältää teorian ja tehtävät sekä opettajan että oppilaan versioina. 
     
 - Tavoitteet
-    *
-    *
+    * Tutustua hiukkasfysiikan tutkimukseen CERNissä
+    * Käyttää ja samalla oppia Python ohjelmointikieltä
+    * Käsitellä, havainnollistaa ja analysoida  mittausdataa
+    * Ratkaista ongelma ja herättää uteliaisuutta fysiikkaa, dataa ja koodausta kohtaan
 
 - Aika-arvio
-    *
-    *
+    * 2h
+      - 25min esitys / esitehtävät
+      - 15min tarina ja tehtävä
+      - 60min ryhmissä työskentely
+      - 20min yhteenveto
+    
+Ps. Mikäli kyseinen työpaja kiinnostaa, sen voi myös tulla tekemään luokan kanssa Aalto Junior laboratorioon! Labrassa on aina paikalla materiaalit osaava assari.
 
 ## Mittaa ja mallinna
 
