@@ -43,9 +43,9 @@ Esitehtäviksi koulussa:
 
 # Materiaalit
 
-Opettajan ohje: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish.git/master?filepath=Opetusmateriaalit%2FHiukkasetHukassa%2FHiukkasetHukassaOpettaja.ipynb)
+Opettajan ohje: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FHiukkasetHukassa%2FHiukkasetHukassaOpettaja.ipynb)
 
-Oppilaan ohje: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish.git/master?filepath=Opetusmateriaalit%2FHiukkasetHukassa%2FHiukkasetHukassaOppilas.ipynb)
+Oppilaan ohje: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Opetusmateriaalit%2FHiukkasetHukassa%2FHiukkasetHukassaOppilas.ipynb)
 
 Diat: 
 
