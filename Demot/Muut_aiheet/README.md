@@ -2,6 +2,9 @@
 
 Voit avata demon MyBinderissa klikkaamalla ![Binder](https://mybinder.org/badge.svg) tai Google Colabissa klikkaamalla ![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true). 
 
+#### 1854_koleraepidemia.ipynb [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2F1854_koleraepidemia.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/1854_koleraepidemia.ipynb)
+- Data ja tilastot taistelussa kulkutauteja vastaan. Tiedät sittenkin, John Snow!
+
 #### CERN_henkilosto.ipynb [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FMuut_aiheet%2FCERN_henkilosto.ipynb) [![Colaboratory](https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true)](https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Muut_aiheet/CERN_henkilosto.ipynb)
 - Keitä CERN:ssä työskentelee?
 
